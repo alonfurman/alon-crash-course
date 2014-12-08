@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>com.wixpress.common</groupId>
+        <artifactId>wix-master-parent</artifactId>
+        <version>100.0.0-SNAPSHOT</version>
+    </parent>
+
+    <groupId>com.wixpress.academy</groupId>
+    <artifactId>maven-lab-alonf</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+    <name>Maven Lab Project</name>
+    <description>Simple maven project created in the crash course lab</description>
+    <packaging>jar</packaging>
+
+    <developers>
+        <developer>
+            <name>Alon F</name>
+            <email>alonf@wix.com</email>
+            <roles>
+                <role>dev</role>
+                <role>owner</role>
+            </roles>
+        </developer>
+    </developers>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.wixpress.common</groupId>
+            <artifactId>wix-framework-scala-dependencies</artifactId>
+        </dependency>
+    </dependencies>
+</project>
